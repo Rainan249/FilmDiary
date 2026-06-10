@@ -4,6 +4,7 @@ import { resolve } from 'path'
 
 export default defineConfig({
   plugins: [vue()],
+  base: '/FilmDiary/',
   resolve: {
     alias: {
       '@': resolve(__dirname, 'src'),
@@ -19,7 +20,7 @@ export default defineConfig({
     },
   },
   build: {
-    outDir: '../src/main/resources/static',
+    outDir: 'dist',
     emptyOutDir: true,
   },
 })
