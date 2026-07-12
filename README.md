@@ -1,4 +1,4 @@
-#2026.6
+# 2026.6
 # web前端课程设计  菲林电影--FilmDiary
 ## 前端采用vue技术
 ## 后端采用springboot技术和SQLite数据库
